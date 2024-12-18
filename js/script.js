@@ -7,10 +7,11 @@
 
 //1 Chiedere all'utente il numero di chilometri che deve effettuare
     const km = parseInt(prompt("Inserire numero di km da effettuare"));
+    console.log("Km da effettuare: " + km );
 
 //2 Chiedere all'utente la sua età
     const età = parseInt(prompt("Inserire età dell'utente"));
-    console.log(km, età);
+    console.log("Età dell'utente è: " + età + " " + "anni" );
 
 
 //-- Calcolare il prezzo totale del viaggio --
